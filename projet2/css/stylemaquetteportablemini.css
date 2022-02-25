@@ -1,0 +1,563 @@
+@media screen and (min-width: 250px) and (max-width: 380px) {
+
+    @font-face
+    {
+        font-family: 'Raleway';
+        src: url(Raleway-Regular.ttf); 
+    }
+    @font-face
+    {
+        font-family: 'Raleway-Bold';
+        src: url(Raleway-Bold.ttf); 
+    }
+    a
+    {
+        width: 100%;
+    }
+    h1,h2
+    {
+        font-family: "Raleway-Bold";
+    }
+    p
+    {
+        font-family: "Raleway";
+    }
+    .barrefiltre
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 2.5%;
+    }
+    .textf
+    {
+        font-family: "Raleway-Bold";
+    }
+    
+    .itemf1
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 4%;
+        margin-right: 4%;
+        border-top: 2px rgb(192, 192, 192) solid;
+        border-bottom: 2px rgb(192, 192, 192) solid;
+        border-right: 2px rgb(192, 192, 192) solid;
+        border-left: 2px #deebff;
+        border-radius: 26%/100%;
+        height: 36px;
+        width: 160px;
+    }
+    .itemf2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 4%;
+        border-top: 2px rgb(192, 192, 192) solid;
+        border-bottom: 2px rgb(192, 192, 192) solid;
+        border-right: 2px rgb(192, 192, 192) solid;
+        border-left: 2px #deebff;
+        border-radius: 34%/100%;
+        height: 36px;
+        width: 130px;
+    }
+    .itemf3
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 4%;
+        border-top: 2px rgb(192, 192, 192) solid;
+        border-bottom: 2px rgb(192, 192, 192) solid;
+        border-right: 2px rgb(192, 192, 192) solid;
+        border-left: 2px #deebff;
+        border-radius: 27%/100%;
+        height: 36px;
+        width: 155px;
+    }
+    .itemf4
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 4%;
+        border-top: 2px rgb(192, 192, 192) solid;
+        border-bottom: 2px rgb(192, 192, 192) solid;
+        border-right: 2px rgb(192, 192, 192) solid;
+        border-left: 2px #deebff;
+        border-radius: 21%/100%;
+        height: 36px;
+        width: 205px;
+    }
+    .itemf1:hover,.itemf2:hover,.itemf3:hover,.itemf4:hover
+    {
+        background-color: lightgray;
+    }
+    .icônesf
+    {
+        margin-right: 10px;
+        background-color: #DEEBFF;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%
+    }
+    .fa-money-bill-wave:before,.fa-heart:before,.fa-dog:before
+    {
+        color: #0065FC;
+    }
+    .log500
+    {
+        margin-bottom: 1.2%;
+        margin-left: 5%;
+        display: flex;
+        align-items: center;
+    }
+    .icônelog
+    {
+            margin-bottom: 4.5%;
+            height: 20px;
+            width: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 50%
+    }
+    .text-log
+    {
+        font-size: 14px;
+        margin-left: 1.8%;
+        width: 88%;
+    }
+    .fa-child:before
+    {
+        margin-right: 2px;
+        color: #0065FC;  
+    }
+    .fa-info:before
+    {
+        font-size: 0.7em;
+        color: #0065FC;
+    }
+    .cinqX
+    {
+        display: flex;
+        margin-left: 4%;
+        font-size: 10px;
+    }
+    .cinqXp
+    {
+        display: flex;
+        margin-left: 0px;
+        font-size: 8px;
+    
+    }
+    .troisàcinqX
+    {
+        color: #0065FC;
+    }
+    .unedeuxX
+    {
+        color: rgb(192, 192, 192);
+    }
+    .haut,.bas
+    {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    }
+    .cards-hébergements
+    {
+        background-color: whitesmoke;
+        width: 95%;
+        height: 172px;
+        box-shadow: rgb(189 189 189) 0px 3px 9px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 15px;
+        margin-bottom: 5%;
+    }
+    .cards-lespluspopulaires
+    {
+        background-color: whitesmoke;
+        width: 90%;
+        height: 106px;
+        border-radius: 20px;
+        box-shadow: 0px 3px 9px 0px rgb(189 189 189);
+        display: flex;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    
+    }
+    .itemh
+    {
+        width: 97.5%;
+        height: 100px;
+        object-fit: cover;
+        border: 3px whitesmoke solid;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .itemp
+    {
+        height: 100px;
+        width: 80px;
+        object-fit: cover;
+        border: 3px whitesmoke solid;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .premsec
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .lespluspop
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(238, 238, 238);
+    }
+    .linkbox-lespluspopulaires
+    {
+        display: flex;
+    }
+    .titrepp
+    {
+        display: flex;
+        align-items: baseline;
+        margin-top: 20px;
+        justify-content: space-between;
+        width: 87.5%;
+        margin-left: 6%;
+    }
+    .hpp
+    {
+        margin-bottom: 26px;
+        font-size: 20px;
+    }
+    .fa-chart-line:before
+    {
+        font-size: 20px;
+    }
+    .textpp
+    {
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    .nomp
+    {
+        font-family: "Raleway-Bold";
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .prixp
+    {
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .hébergement
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(250, 250, 250);
+        width: 100%;
+        height: 1275px;   
+    }
+    .titrehé
+    {
+        margin-left: 5%;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .titrehé2
+    {
+        margin-top: 5px;
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    .texth
+    {
+        margin-top: 0px;
+        margin-bottom: 1%;
+    }
+    .nom
+    {
+        font-weight:bold ;
+        margin-left: 4%;
+        font-size: 16px;
+    }
+    .nuit
+    {
+        margin-left: 4%;
+        font-size: 13px;
+    }
+    .prix
+    {
+        font-family: "Raleway-Bold";
+    }
+    .logo
+    {
+        width: 45.5%;
+    }
+    .logobox
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 41%;
+    }
+    .Hébact:hover
+    {
+        color: #0065FC;
+        border-bottom:2px #0065FC solid;
+    }
+    a:link,:visited
+    {
+        color: unset;
+        text-decoration: none;
+    }
+    .Hébact
+    {
+        width: 50%;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-menu
+    {
+        display: flex;
+    }
+    .votrehéber
+    {
+        font-family: "Raleway-Bold";
+        font-size: 1.2em;
+    }
+    .prétext
+    {
+        width: 88%;
+        margin-left: 5%;
+    }
+    .barrerech
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .map
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36.5px;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
+        background-color: rgb(238, 238, 238);
+    }
+    .marseillefr
+    {
+        border-left: none;
+        border-right: none;
+        border-top: 1.5px rgb(235, 235, 235) solid;
+        border-bottom: 1.5px rgb(235, 235, 235) solid;
+        height: 37px;   
+        display: flex;
+        align-items: center;
+        padding: 0;
+        font-size: 11px;
+        outline: none;
+    }
+    .rechercher
+    {
+        border-radius: 13px;
+        background-color: #0065FC;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;  
+    }
+    .textrr
+    {
+        font-family: "Raleway-Bold"; 
+        display: none; 
+    }
+    .textMF
+    {
+        font-family: "Raleway-Bold";
+        padding-left: 5%;
+    }
+    .deuxsec
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .actimarseille
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .titreacti
+    {
+        font-size: 20px;
+        margin-top: 55px;
+    }
+    .act
+    {
+        width: 95%;
+        height: 175px;
+        margin-bottom: 7%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: -1px 4px 9px 0px rgb(214 214 214);
+    }
+    .act2
+    {
+        width: 95%;
+        height: 175px;
+        margin-bottom: 7%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        box-shadow: -1px 4px 9px 0px rgb(214 214 214);
+    }
+    .topacti1
+    {
+        height: 135px;
+    }
+    .imgacti1
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .botacti
+    {
+        background-color: rgb(255 255 255);
+        height: 45px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .textacti
+    {
+        margin-left: 15px;
+        font-family: "Raleway-Bold";
+    }
+    .actcol2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .actcol4
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;  
+    }
+    .imgacti2
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .topacti2
+    {
+        height: 135px;
+    }
+    .imgacti3
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .topacti3
+    {
+        height: 135px;
+    }
+    .imgacti5
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .topacti5
+    {
+        height: 135px;
+    }
+    .imgacti6
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .topacti6
+    {
+        height: 135px;
+    }
+    .footer
+    {
+        height: 395px;
+        background-color:rgb(238, 238, 238);
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .foot1
+    {
+        margin-left: 30px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .foot2
+    {
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .foot3
+    {
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    .titrefo
+    {
+        font-size: 15px;
+    }
+    .textfo
+    {
+        font-size: 14px;
+    }
+} 
