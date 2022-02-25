@@ -1,5 +1,6 @@
 # Booki : projet d'intégration Openclassrooms
 Deuxième projet du parcours développeur web chez OpenClassrooms.
+
 L'objectif était d'intégrer la maquette d'un site de planification de vacance nommé "Booki" (voir l'image ci-dessous).
 
 ## Cahier des charges :
